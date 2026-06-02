@@ -65,10 +65,6 @@ int main()
 	// the sizeof operator gets its information from these two include files 
 	
 	
-    
-	
-	
-	
 	
 	
 	return 0;
