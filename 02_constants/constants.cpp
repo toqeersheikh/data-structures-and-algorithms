@@ -13,7 +13,8 @@ int main()
 	// Now pi and months_in_year are read only we cannot change or overwrite their values.
 	
 	
-	// declared constants must be initialized, others the compiler will throw an error 
+	// declared constants must be initialized, otherwise the compiler will throw an error 
+	
 	// const int dob;
 	
 	// don't use # define constants in modern c++

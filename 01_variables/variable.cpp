@@ -40,12 +40,12 @@ int main()
 	// Primitive types 
 	
 	
-	// char
+	// char use single quotes
 	
 	
 	cout<<sizeof(char)<<endl; 
 	
-	// use single quotes: double quotes are for strings
+	//  double quotes are for strings
 	
 	// int: integer , short int, long int etc
 	
@@ -58,7 +58,7 @@ int main()
 	
 	// Size of operator: determines the size of a type in bytes like sizeof(int)
 	
-	// can also be used to determine the size of compound types like arrats and structures etc 
+	// can also be used to determine the size of compound types like arrays and structures etc 
 	
 	// <climits> <cfloat>
 	

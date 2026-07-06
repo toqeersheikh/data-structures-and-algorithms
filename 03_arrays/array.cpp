@@ -84,7 +84,7 @@ int main()
 	
 	cout<< *(ages+1)<<endl; // 20 
 	
-	// So adding 1 to a integer pointer mean adding size of one int to pointer 
+	// So adding 1 to a integer pointer mean adding size of one int to an int pointer 
 	
 	cout<< *(ages+2)<<endl;
 	cout<< *(ages+3)<<endl;
@@ -116,7 +116,7 @@ int main()
 	
 	// There is no bounds checking in the arrays 
 	
-	// It means the language runtime doesn't verify whether your index is withing th evalid range of the array 
+	// It means the language runtime doesn't verify whether your index is within the valid range of the array 
 	// before accessing memory 
 	
 	
@@ -124,18 +124,15 @@ int main()
 	
 	cout<< "Size of array is: "<<sizeof(ages)/4<<endl; //4
 	
-	// means valid indexes are 0 to 4 
+	// means valid indexes are 0 to 3 
 	
-	// but if we do ages[5] thats out of bounds 
+	// but if we do ages[5] thats out of bound
 	
 	
 	// cout<<"ages[5] : "<<ages[5]<<endl;
 	
 	// the result is unpextected and we have no idea where it is coming from 
 	
-
-	
-
 	
 	// 2D Arrays:
 	
